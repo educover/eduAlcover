@@ -35,6 +35,32 @@ h2{
 	color: #000;
 }
 
+nav ul li{
+  padding: 20px;
+  float:left;
+}
+
+nav ul{
+  list-style:none;
+}
+
+nav ul li{
+  font:bold 1.2em sans-serif;
+}
+
+nav ul li a{
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+  font:bold 1.3em sans-serif;
+  color: #1F205D;
+}
+
+aside{
+  clear:both;
+}
+
 body{
   background:#84B3EC;
 }
@@ -47,7 +73,8 @@ a:hover {
 color: #00ff00;
 }
 
-footer a{
-  padding:15px;
-  -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+footer{
+ text-align:center;
+ background-color: red;
+ margin-bot: 10px;
 }
